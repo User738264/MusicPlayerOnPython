@@ -1,0 +1,3 @@
+Библотеки использованы:
+csv, os, sys, time, PyQt5, PyQt5.QtGui import QPixmap, QMovie, QIcon, PyQt5.QtWidgets import *, PyQt5.QtCore import *, PyQt5.QtMultimedia import *, sqlite3, 
+pydub import AudioSegment, itertools import islice, datetime

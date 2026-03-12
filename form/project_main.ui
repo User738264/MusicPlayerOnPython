@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="list_of_music">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>290</y>
+      <width>310</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Плейлист</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_button">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>430</y>
+      <width>310</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Плеер</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="settings">
+    <property name="geometry">
+     <rect>
+      <x>45</x>
+      <y>20</y>
+      <width>65</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Поставить
+картинку</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="current_song">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>251</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="history_button">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>20</y>
+      <width>90</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>История
+прослушиваний</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
